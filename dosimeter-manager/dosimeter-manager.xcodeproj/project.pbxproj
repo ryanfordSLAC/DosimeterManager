@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842E4A721F1EBCB000F7A7B8 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E4A711F1EBCB000F7A7B8 /* SessionController.swift */; };
+		842E4A761F1EC28E00F7A7B8 /* QueryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E4A751F1EC28E00F7A7B8 /* QueryVC.swift */; };
+		8468D5F11F215F850067A4A2 /* MonitorDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D5F01F215F850067A4A2 /* MonitorDisplayVC.swift */; };
+		8468D5F31F2160A00067A4A2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D5F21F2160A00067A4A2 /* Session.swift */; };
+		8468D5F51F26AE7A0067A4A2 /* MonitorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D5F41F26AE7A0067A4A2 /* MonitorInfoVC.swift */; };
+		8468D5F81F26CCCB0067A4A2 /* MonitorVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D5F71F26CCCB0067A4A2 /* MonitorVerifyVC.swift */; };
+		8468D8971F10066D00B6F7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D8961F10066D00B6F7A6 /* AppDelegate.swift */; };
+		8468D8991F10066D00B6F7A6 /* StartUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D8981F10066D00B6F7A6 /* StartUpVC.swift */; };
+		8468D89C1F10066D00B6F7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468D89A1F10066D00B6F7A6 /* Main.storyboard */; };
+		8468D89E1F10066D00B6F7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8468D89D1F10066D00B6F7A6 /* Assets.xcassets */; };
+		8468D8A11F10066D00B6F7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468D89F1F10066D00B6F7A6 /* LaunchScreen.storyboard */; };
+		8468D8AC1F10066D00B6F7A6 /* dosimeter_managerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D8AB1F10066D00B6F7A6 /* dosimeter_managerTests.swift */; };
+		8468D8B71F10066D00B6F7A6 /* dosimeter_managerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D8B61F10066D00B6F7A6 /* dosimeter_managerUITests.swift */; };
+		8468D9011F140D0E00B6F7A6 /* BarcodeReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D9001F140D0E00B6F7A6 /* BarcodeReaderVC.swift */; };
+		848C6AF31F2938BD00B849DF /* MonitorExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C6AF21F2938BD00B849DF /* MonitorExchangeVC.swift */; };
+		8495A5281F3FE57400C8F565 /* ExportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A5271F3FE57400C8F565 /* ExportVC.swift */; };
+		84A17CBE1F329033008F795B /* QueryModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A17CBD1F329033008F795B /* QueryModeVC.swift */; };
+		84D1CB351F16E1A6003A0650 /* DataDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1CB341F16E1A6003A0650 /* DataDisplayVC.swift */; };
+		84D1CB751F16E4C7003A0650 /* dosimeter-manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D1CB731F16E4C7003A0650 /* dosimeter-manager.xcdatamodeld */; };
+		84ED5B001F2041CB00ECB4EB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5AFF1F2041CB00ECB4EB /* Utility.swift */; };
+		84ED5B021F2042B100ECB4EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5B011F2042B100ECB4EB /* Constants.swift */; };
+		84ED5B051F20446C00ECB4EB /* SessionDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5B041F20446C00ECB4EB /* SessionDisplayVC.swift */; };
+		84F7CDD61F48D77C00277E95 /* FileManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7CDD51F48D77C00277E95 /* FileManagerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8468D8A81F10066D00B6F7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8468D88B1F10066D00B6F7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8468D8921F10066D00B6F7A6;
+			remoteInfo = "dosimeter-manager";
+		};
+		8468D8B31F10066D00B6F7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8468D88B1F10066D00B6F7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8468D8921F10066D00B6F7A6;
+			remoteInfo = "dosimeter-manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842E4A711F1EBCB000F7A7B8 /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		842E4A751F1EC28E00F7A7B8 /* QueryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryVC.swift; sourceTree = "<group>"; };
+		8468D5F01F215F850067A4A2 /* MonitorDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorDisplayVC.swift; sourceTree = "<group>"; };
+		8468D5F21F2160A00067A4A2 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		8468D5F41F26AE7A0067A4A2 /* MonitorInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorInfoVC.swift; sourceTree = "<group>"; };
+		8468D5F71F26CCCB0067A4A2 /* MonitorVerifyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorVerifyVC.swift; sourceTree = "<group>"; };
+		8468D8931F10066D00B6F7A6 /* dosimeter-manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dosimeter-manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8468D8961F10066D00B6F7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8468D8981F10066D00B6F7A6 /* StartUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpVC.swift; sourceTree = "<group>"; };
+		8468D89B1F10066D00B6F7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8468D89D1F10066D00B6F7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8468D8A01F10066D00B6F7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8468D8A21F10066D00B6F7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468D8A71F10066D00B6F7A6 /* dosimeter-managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dosimeter-managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8468D8AB1F10066D00B6F7A6 /* dosimeter_managerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosimeter_managerTests.swift; sourceTree = "<group>"; };
+		8468D8AD1F10066D00B6F7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468D8B21F10066D00B6F7A6 /* dosimeter-managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dosimeter-managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8468D8B61F10066D00B6F7A6 /* dosimeter_managerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosimeter_managerUITests.swift; sourceTree = "<group>"; };
+		8468D8B81F10066D00B6F7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468D9001F140D0E00B6F7A6 /* BarcodeReaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderVC.swift; sourceTree = "<group>"; };
+		848C6AF21F2938BD00B849DF /* MonitorExchangeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorExchangeVC.swift; sourceTree = "<group>"; };
+		8495A5271F3FE57400C8F565 /* ExportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportVC.swift; sourceTree = "<group>"; };
+		84A17CBD1F329033008F795B /* QueryModeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryModeVC.swift; sourceTree = "<group>"; };
+		84D1CB341F16E1A6003A0650 /* DataDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDisplayVC.swift; sourceTree = "<group>"; };
+		84D1CB741F16E4C7003A0650 /* dosimeter-manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "dosimeter-manager.xcdatamodel"; sourceTree = "<group>"; };
+		84ED5AFF1F2041CB00ECB4EB /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		84ED5B011F2042B100ECB4EB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84ED5B041F20446C00ECB4EB /* SessionDisplayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDisplayVC.swift; sourceTree = "<group>"; };
+		84F7CDD51F48D77C00277E95 /* FileManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8468D8901F10066D00B6F7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8A41F10066D00B6F7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8AF1F10066D00B6F7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8468D5F61F26CC650067A4A2 /* Monitor Displays */ = {
+			isa = PBXGroup;
+			children = (
+				8468D5F41F26AE7A0067A4A2 /* MonitorInfoVC.swift */,
+				8468D5F01F215F850067A4A2 /* MonitorDisplayVC.swift */,
+				848C6AF21F2938BD00B849DF /* MonitorExchangeVC.swift */,
+				8468D5F71F26CCCB0067A4A2 /* MonitorVerifyVC.swift */,
+			);
+			name = "Monitor Displays";
+			sourceTree = "<group>";
+		};
+		8468D88A1F10066D00B6F7A6 = {
+			isa = PBXGroup;
+			children = (
+				8468D8951F10066D00B6F7A6 /* dosimeter-manager */,
+				8468D8AA1F10066D00B6F7A6 /* dosimeter-managerTests */,
+				8468D8B51F10066D00B6F7A6 /* dosimeter-managerUITests */,
+				8468D8941F10066D00B6F7A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8468D8941F10066D00B6F7A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8468D8931F10066D00B6F7A6 /* dosimeter-manager.app */,
+				8468D8A71F10066D00B6F7A6 /* dosimeter-managerTests.xctest */,
+				8468D8B21F10066D00B6F7A6 /* dosimeter-managerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8468D8951F10066D00B6F7A6 /* dosimeter-manager */ = {
+			isa = PBXGroup;
+			children = (
+				8468D5F61F26CC650067A4A2 /* Monitor Displays */,
+				84ED5B031F2042BA00ECB4EB /* Utility */,
+				8468D8961F10066D00B6F7A6 /* AppDelegate.swift */,
+				8468D8981F10066D00B6F7A6 /* StartUpVC.swift */,
+				84ED5B041F20446C00ECB4EB /* SessionDisplayVC.swift */,
+				842E4A711F1EBCB000F7A7B8 /* SessionController.swift */,
+				84D1CB341F16E1A6003A0650 /* DataDisplayVC.swift */,
+				8495A5271F3FE57400C8F565 /* ExportVC.swift */,
+				8468D9001F140D0E00B6F7A6 /* BarcodeReaderVC.swift */,
+				842E4A751F1EC28E00F7A7B8 /* QueryVC.swift */,
+				84A17CBD1F329033008F795B /* QueryModeVC.swift */,
+				84F7CDD51F48D77C00277E95 /* FileManagerVC.swift */,
+				8468D89A1F10066D00B6F7A6 /* Main.storyboard */,
+				8468D89D1F10066D00B6F7A6 /* Assets.xcassets */,
+				8468D89F1F10066D00B6F7A6 /* LaunchScreen.storyboard */,
+				8468D8A21F10066D00B6F7A6 /* Info.plist */,
+				84D1CB731F16E4C7003A0650 /* dosimeter-manager.xcdatamodeld */,
+			);
+			path = "dosimeter-manager";
+			sourceTree = "<group>";
+		};
+		8468D8AA1F10066D00B6F7A6 /* dosimeter-managerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8468D8AB1F10066D00B6F7A6 /* dosimeter_managerTests.swift */,
+				8468D8AD1F10066D00B6F7A6 /* Info.plist */,
+			);
+			path = "dosimeter-managerTests";
+			sourceTree = "<group>";
+		};
+		8468D8B51F10066D00B6F7A6 /* dosimeter-managerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8468D8B61F10066D00B6F7A6 /* dosimeter_managerUITests.swift */,
+				8468D8B81F10066D00B6F7A6 /* Info.plist */,
+			);
+			path = "dosimeter-managerUITests";
+			sourceTree = "<group>";
+		};
+		84ED5B031F2042BA00ECB4EB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5AFF1F2041CB00ECB4EB /* Utility.swift */,
+				8468D5F21F2160A00067A4A2 /* Session.swift */,
+				84ED5B011F2042B100ECB4EB /* Constants.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8468D8921F10066D00B6F7A6 /* dosimeter-manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8468D8BB1F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-manager" */;
+			buildPhases = (
+				8468D88F1F10066D00B6F7A6 /* Sources */,
+				8468D8901F10066D00B6F7A6 /* Frameworks */,
+				8468D8911F10066D00B6F7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dosimeter-manager";
+			productName = "dosimeter-manager";
+			productReference = 8468D8931F10066D00B6F7A6 /* dosimeter-manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8468D8A61F10066D00B6F7A6 /* dosimeter-managerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8468D8BE1F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-managerTests" */;
+			buildPhases = (
+				8468D8A31F10066D00B6F7A6 /* Sources */,
+				8468D8A41F10066D00B6F7A6 /* Frameworks */,
+				8468D8A51F10066D00B6F7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8468D8A91F10066D00B6F7A6 /* PBXTargetDependency */,
+			);
+			name = "dosimeter-managerTests";
+			productName = "dosimeter-managerTests";
+			productReference = 8468D8A71F10066D00B6F7A6 /* dosimeter-managerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8468D8B11F10066D00B6F7A6 /* dosimeter-managerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8468D8C11F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-managerUITests" */;
+			buildPhases = (
+				8468D8AE1F10066D00B6F7A6 /* Sources */,
+				8468D8AF1F10066D00B6F7A6 /* Frameworks */,
+				8468D8B01F10066D00B6F7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8468D8B41F10066D00B6F7A6 /* PBXTargetDependency */,
+			);
+			name = "dosimeter-managerUITests";
+			productName = "dosimeter-managerUITests";
+			productReference = 8468D8B21F10066D00B6F7A6 /* dosimeter-managerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8468D88B1F10066D00B6F7A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Guthrie Price";
+				TargetAttributes = {
+					8468D8921F10066D00B6F7A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8STHX4URVR;
+						ProvisioningStyle = Automatic;
+					};
+					8468D8A61F10066D00B6F7A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8STHX4URVR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8468D8921F10066D00B6F7A6;
+					};
+					8468D8B11F10066D00B6F7A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8STHX4URVR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8468D8921F10066D00B6F7A6;
+					};
+				};
+			};
+			buildConfigurationList = 8468D88E1F10066D00B6F7A6 /* Build configuration list for PBXProject "dosimeter-manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8468D88A1F10066D00B6F7A6;
+			productRefGroup = 8468D8941F10066D00B6F7A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8468D8921F10066D00B6F7A6 /* dosimeter-manager */,
+				8468D8A61F10066D00B6F7A6 /* dosimeter-managerTests */,
+				8468D8B11F10066D00B6F7A6 /* dosimeter-managerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8468D8911F10066D00B6F7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468D8A11F10066D00B6F7A6 /* LaunchScreen.storyboard in Resources */,
+				8468D89E1F10066D00B6F7A6 /* Assets.xcassets in Resources */,
+				8468D89C1F10066D00B6F7A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8A51F10066D00B6F7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8B01F10066D00B6F7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8468D88F1F10066D00B6F7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A17CBE1F329033008F795B /* QueryModeVC.swift in Sources */,
+				8495A5281F3FE57400C8F565 /* ExportVC.swift in Sources */,
+				84F7CDD61F48D77C00277E95 /* FileManagerVC.swift in Sources */,
+				848C6AF31F2938BD00B849DF /* MonitorExchangeVC.swift in Sources */,
+				842E4A761F1EC28E00F7A7B8 /* QueryVC.swift in Sources */,
+				8468D8991F10066D00B6F7A6 /* StartUpVC.swift in Sources */,
+				84ED5B001F2041CB00ECB4EB /* Utility.swift in Sources */,
+				8468D9011F140D0E00B6F7A6 /* BarcodeReaderVC.swift in Sources */,
+				8468D5F51F26AE7A0067A4A2 /* MonitorInfoVC.swift in Sources */,
+				84D1CB751F16E4C7003A0650 /* dosimeter-manager.xcdatamodeld in Sources */,
+				84ED5B021F2042B100ECB4EB /* Constants.swift in Sources */,
+				8468D5F31F2160A00067A4A2 /* Session.swift in Sources */,
+				8468D8971F10066D00B6F7A6 /* AppDelegate.swift in Sources */,
+				842E4A721F1EBCB000F7A7B8 /* SessionController.swift in Sources */,
+				8468D5F11F215F850067A4A2 /* MonitorDisplayVC.swift in Sources */,
+				84ED5B051F20446C00ECB4EB /* SessionDisplayVC.swift in Sources */,
+				8468D5F81F26CCCB0067A4A2 /* MonitorVerifyVC.swift in Sources */,
+				84D1CB351F16E1A6003A0650 /* DataDisplayVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8A31F10066D00B6F7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468D8AC1F10066D00B6F7A6 /* dosimeter_managerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8468D8AE1F10066D00B6F7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468D8B71F10066D00B6F7A6 /* dosimeter_managerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8468D8A91F10066D00B6F7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8468D8921F10066D00B6F7A6 /* dosimeter-manager */;
+			targetProxy = 8468D8A81F10066D00B6F7A6 /* PBXContainerItemProxy */;
+		};
+		8468D8B41F10066D00B6F7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8468D8921F10066D00B6F7A6 /* dosimeter-manager */;
+			targetProxy = 8468D8B31F10066D00B6F7A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8468D89A1F10066D00B6F7A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8468D89B1F10066D00B6F7A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8468D89F1F10066D00B6F7A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8468D8A01F10066D00B6F7A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8468D8B91F10066D00B6F7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8468D8BA1F10066D00B6F7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8468D8BC1F10066D00B6F7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8468D8BD1F10066D00B6F7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8468D8BF1F10066D00B6F7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-managerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-managerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dosimeter-manager.app/dosimeter-manager";
+			};
+			name = Debug;
+		};
+		8468D8C01F10066D00B6F7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-managerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-managerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dosimeter-manager.app/dosimeter-manager";
+			};
+			name = Release;
+		};
+		8468D8C21F10066D00B6F7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-managerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dosimeter-manager";
+			};
+			name = Debug;
+		};
+		8468D8C31F10066D00B6F7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8STHX4URVR;
+				INFOPLIST_FILE = "dosimeter-managerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guthrieprice.dosimeter-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dosimeter-manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8468D88E1F10066D00B6F7A6 /* Build configuration list for PBXProject "dosimeter-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468D8B91F10066D00B6F7A6 /* Debug */,
+				8468D8BA1F10066D00B6F7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8468D8BB1F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468D8BC1F10066D00B6F7A6 /* Debug */,
+				8468D8BD1F10066D00B6F7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8468D8BE1F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-managerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468D8BF1F10066D00B6F7A6 /* Debug */,
+				8468D8C01F10066D00B6F7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8468D8C11F10066D00B6F7A6 /* Build configuration list for PBXNativeTarget "dosimeter-managerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468D8C21F10066D00B6F7A6 /* Debug */,
+				8468D8C31F10066D00B6F7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D1CB731F16E4C7003A0650 /* dosimeter-manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D1CB741F16E4C7003A0650 /* dosimeter-manager.xcdatamodel */,
+			);
+			currentVersion = 84D1CB741F16E4C7003A0650 /* dosimeter-manager.xcdatamodel */;
+			path = "dosimeter-manager.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8468D88B1F10066D00B6F7A6 /* Project object */;
+}
