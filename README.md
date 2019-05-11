@@ -1,5 +1,9 @@
-# Dosimeter-Manager
+![Logo](/Images/Logo.png)
+
+
+# Dosimeter Manager
 Version 0 of the Area Exchange App for iOS
+Created by Guthrie Price
 
 ## Initial version coded by Guthrie Price
 Created in Version 3.x of Swift
