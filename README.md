@@ -5,7 +5,7 @@ Version 0 of the Area Exchange App for iOS
 Created in Version 3.x of Swift
 
 ### Use Branch:  Swift_4_Migration for migration
- [X] Add App Icons (SLAC Logo)
+ [x] Add App Icons - SLAC Logo
  [ ] Migrate to Swift 4
 
 
