@@ -1,3 +1,5 @@
+
+
 ![Logo](/Images/Logo.png)
 
 
@@ -24,7 +26,11 @@ Click Play button, app will load to device
 ```
 #### Connectivity
 
-The app runs locally and does not require connection to CloudKit, or the Web.   Sessions are initiated on the device, and the local file is e-mailed to the RP supervisor who combines the files into a master file.
+* The app runs locally and does not require connection to CloudKit, or the Web.   Sessions are initiated on the device, and the local file is e-mailed to the RP supervisor who combines the files into a master file.
+
+#### Maintenance
+
+* Periodic review of the Apple Developer console is necessary to verify the devices are registered correctly.  Prior to loading the app to a staff member's personal device, they should change their device name to something easily identifiable (e.g., RyanFord's iPhone).  This way, devices can be de-registered from the console by the administrator if necessary for security reasons.
 
 
 
